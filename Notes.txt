@@ -1,4 +1,5 @@
-Log of connecting the local git with the GitHub repo using Git Bash
+Log of the git bash actions to connect local with remote repo 
+
 
 Precision 5530@DESKTOP-I2SC97H MINGW64 ~
 $ cd "C:/Users/Precision 5530/Desktop/Crown Software MVC"
@@ -23,4 +24,3 @@ branch 'main' set up to track 'origin/main'.
 
 Precision 5530@DESKTOP-I2SC97H MINGW64 ~/Desktop/Crown Software MVC (main)
 $
-
