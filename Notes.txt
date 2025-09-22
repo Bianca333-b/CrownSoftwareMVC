@@ -1,0 +1,26 @@
+Log of connecting the local git with the GitHub repo using Git Bash
+
+Precision 5530@DESKTOP-I2SC97H MINGW64 ~
+$ cd "C:/Users/Precision 5530/Desktop/Crown Software MVC"
+
+Precision 5530@DESKTOP-I2SC97H MINGW64 ~/Desktop/Crown Software MVC (master)
+$ git remote add origin https://github.com/Bianca333-b/CrownSoftwareMVC.git
+
+Precision 5530@DESKTOP-I2SC97H MINGW64 ~/Desktop/Crown Software MVC (master)
+$ git branch -M main
+
+Precision 5530@DESKTOP-I2SC97H MINGW64 ~/Desktop/Crown Software MVC (main)
+$ Git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 881 bytes | 293.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Bianca333-b/CrownSoftwareMVC.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+Precision 5530@DESKTOP-I2SC97H MINGW64 ~/Desktop/Crown Software MVC (main)
+$
+
