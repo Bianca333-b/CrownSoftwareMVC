@@ -1,0 +1,216 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+
+body {
+  font-family: 'Raleway', sans-serif;
+  scroll-behavior: smooth;
+  background-color: #FFF3E0; /* Fun Mode background */
+  color: #333;
+  transition: background 0.3s, color 0.3s, border-color 0.3s, box-shadow 0.3s;
+}
+body.serious-mode .navbar-custom .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(236,240,241)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  color: #ff6557; /* Fun headings */
+    font-weight: bold;
+}
+
+/* Navbar */
+.navbar-custom {
+  background-color: #FFCC80; /* Fun navbar */
+  padding: 1rem 2rem;
+  transition: background 0.3s, color 0.3s;
+}
+.navbar-custom .nav-link,
+.navbar-custom .navbar-brand {
+  color: #6A1B9A;
+  font-weight: bold;
+}
+.navbar-custom .nav-link:hover {
+  color: #ffa200;
+}
+/* Navbar toggler icon */
+.navbar-custom .navbar-toggler {
+    border-color: #6A1B9A; /* fun purple border */
+}
+.navbar-custom .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(106,27,154)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* Animation for smooth mode transitions */
+body, .header, .overlay, .projects .card, .about, .projects, .team, .contact, .hero-content .btn {
+    transition: background 0.5s, color 0.5s, border-color 0.5s, box-shadow 0.5s;
+}
+
+
+/* Header */
+.header {
+  height: 100vh;
+  background-image: url('images/download\ \(2\).jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s;
+}
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 111, 97, 0.6);
+  top: 0;
+  left: 0;
+}
+.hero-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
+.hero-content h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.hero-content p {
+  font-size: 1.2rem;
+  color: #fff;
+}
+.hero-content .btn {
+  background-color: #FFD700;
+  border: none;
+  color: #333;
+  font-weight: bold;
+}
+.hero-content .btn:hover {
+  background-color: #ffa600;
+  color: #fff;
+}
+
+/* Sections Fun Mode */
+.about { background: #FFE0B2; padding: 6rem 0; }
+.projects { background: #FFF59D; padding: 6rem 0; }
+.projects .card { box-shadow: 0 8px 20px rgba(0,0,0,0.2); border-radius: 15px; transition: transform 0.3s; }
+.projects .card:hover { transform: translateY(-10px); }
+.projects .btn { background-color: #FF6F61; border: none; }
+.projects .btn:hover { background-color: #E91E63; }
+.team { background: #B2DFDB; padding: 6rem 0; }
+.team img { margin-bottom: 1rem; border: 4px solid #fd9f96; }
+.team h5 { color: #FF6F61; }
+.contact { background: #F8BBD0; padding: 6rem 0; }
+.contact .btn { background-color: #FF6F61; border: none; }
+.contact .btn:hover { background-color: #E91E63; }
+
+/* Mode Button */
+#modeContainer {
+  position: fixed;
+  top: 80px;
+  right: 20px;
+  z-index: 999;
+}
+#modeButton { 
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    background: rgba(255, 255, 255, 0.15); /* more transparent */
+    color: #4c78fc; /* changed text colour */
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    transition: background 0.3s, color 0.3s;
+}
+
+#modeButton:hover {
+    background: rgba(255, 255, 255, 0.6);
+}
+
+
+/* Serious Mode */
+body.serious-mode {
+  background-color: #F0F0F0;
+  color: #222;
+}
+body.serious-mode h1, body.serious-mode h2, body.serious-mode h3 {
+  color: #1B1B1B;
+}
+body.serious-mode .navbar-custom {
+  background-color: #2C3E50;
+}
+body.serious-mode .navbar-custom .nav-link,
+body.serious-mode .navbar-custom .navbar-brand {
+  color: #ECF0F1;
+}
+body.serious-mode .navbar-custom .nav-link:hover {
+  color: #3498DB;
+}
+body.serious-mode .header .overlay {
+  background: rgba(44, 62, 80, 0.7);
+}
+body.serious-mode .hero-content p {
+  color: #ECF0F1;
+}
+body.serious-mode .hero-content .btn {
+  background-color: #34495E;
+  color: #ECF0F1;
+}
+body.serious-mode .hero-content .btn:hover {
+  background-color: #132436;
+}
+body.serious-mode .about { background: #ECF0F1; }
+body.serious-mode .projects { background: #BDC3C7; }
+body.serious-mode .team { background: #95A5A6; }
+body.serious-mode .team img { border: 4px solid #576681; }
+body.serious-mode .team h5 { color: #2C3E50; }
+body.serious-mode .contact { background: #D6DBDF; }
+body.serious-mode .contact .btn { background-color: #34495E; color: #ECF0F1; }
+body.serious-mode .contact .btn:hover { background-color: #132436; }
+body.serious-mode .projects .card h5 {
+  color: #2C3E50;
+}
+body.serious-mode .projects .card {
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  border-radius: 10px;
+}
+body.serious-mode .projects .btn {
+  background-color: #34495E;
+  color: #ECF0F1;
+}
+body.serious-mode .projects .btn:hover {
+  background-color: #132436;
+  color: #ECF0F1;
+}
+
+/* Footer */
+.footer {
+    background-color: #FFCC80; /* fun mode pastel orange */
+    color: #6A1B9A; /* fun purple text */
+    transition: background 0.3s, color 0.3s;
+}
+
+.footer .footer-link {
+    color: #6A1B9A;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 0.5rem;
+}
+
+.footer .footer-link:hover {
+    color: #ff9d00; /* fun gold hover */
+}
+
+/* Serious mode overrides */
+body.serious-mode .footer {
+    background-color: #1F1F1F;
+    color: #ffffff;
+}
+
+body.serious-mode .footer .footer-link {
+    color: #ffffff;
+}
+
+body.serious-mode .footer .footer-link:hover {
+    color: #395ba5;
+}
