@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Precision 5530\\Desktop\\Crown Software MVC\\.Net 8 with MVC\\MvcMovie\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{16263C6E-4097-498A-8DAC-12FBF3A5DE37}|MvcMovie.csproj|c:\\users\\precision 5530\\desktop\\crown software mvc\\.net 8 with mvc\\mvcmovie\\views\\helloworld\\welcome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{16263C6E-4097-498A-8DAC-12FBF3A5DE37}|MvcMovie.csproj|solutionrelative:views\\helloworld\\welcome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{16263C6E-4097-498A-8DAC-12FBF3A5DE37}|MvcMovie.csproj|c:\\users\\precision 5530\\desktop\\crown software mvc\\.net 8 with mvc\\mvcmovie\\controllers\\helloworldcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{16263C6E-4097-498A-8DAC-12FBF3A5DE37}|MvcMovie.csproj|solutionrelative:controllers\\helloworldcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16263C6E-4097-498A-8DAC-12FBF3A5DE37}|MvcMovie.csproj|c:\\users\\precision 5530\\desktop\\crown software mvc\\.net 8 with mvc\\mvcmovie\\views\\helloworld\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{16263C6E-4097-498A-8DAC-12FBF3A5DE37}|MvcMovie.csproj|solutionrelative:views\\helloworld\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16263C6E-4097-498A-8DAC-12FBF3A5DE37}|MvcMovie.csproj|c:\\users\\precision 5530\\desktop\\crown software mvc\\.net 8 with mvc\\mvcmovie\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{16263C6E-4097-498A-8DAC-12FBF3A5DE37}|MvcMovie.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16263C6E-4097-498A-8DAC-12FBF3A5DE37}|MvcMovie.csproj|c:\\users\\precision 5530\\desktop\\crown software mvc\\.net 8 with mvc\\mvcmovie\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{16263C6E-4097-498A-8DAC-12FBF3A5DE37}|MvcMovie.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{16263C6E-4097-498A-8DAC-12FBF3A5DE37}|MvcMovie.csproj|c:\\users\\precision 5530\\desktop\\crown software mvc\\.net 8 with mvc\\mvcmovie\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -36,11 +52,63 @@
         },
         {
           "DockedWidth": 171,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "Welcome.cshtml",
+              "DocumentMoniker": "C:\\Users\\Precision 5530\\Desktop\\Crown Software MVC\\.Net 8 with MVC\\MvcMovie\\Views\\HelloWorld\\Welcome.cshtml",
+              "RelativeDocumentMoniker": "Views\\HelloWorld\\Welcome.cshtml",
+              "ToolTip": "C:\\Users\\Precision 5530\\Desktop\\Crown Software MVC\\.Net 8 with MVC\\MvcMovie\\Views\\HelloWorld\\Welcome.cshtml",
+              "RelativeToolTip": "Views\\HelloWorld\\Welcome.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-23T19:13:28.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Precision 5530\\Desktop\\Crown Software MVC\\.Net 8 with MVC\\MvcMovie\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Precision 5530\\Desktop\\Crown Software MVC\\.Net 8 with MVC\\MvcMovie\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-23T19:07:02.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Precision 5530\\Desktop\\Crown Software MVC\\.Net 8 with MVC\\MvcMovie\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Precision 5530\\Desktop\\Crown Software MVC\\.Net 8 with MVC\\MvcMovie\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-23T18:59:40.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Precision 5530\\Desktop\\Crown Software MVC\\.Net 8 with MVC\\MvcMovie\\Views\\HelloWorld\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\HelloWorld\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Precision 5530\\Desktop\\Crown Software MVC\\.Net 8 with MVC\\MvcMovie\\Views\\HelloWorld\\Index.cshtml",
+              "RelativeToolTip": "Views\\HelloWorld\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-23T18:56:58.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Precision 5530\\Desktop\\Crown Software MVC\\.Net 8 with MVC\\MvcMovie\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -53,13 +121,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "HelloWorldController.cs",
               "DocumentMoniker": "C:\\Users\\Precision 5530\\Desktop\\Crown Software MVC\\.Net 8 with MVC\\MvcMovie\\Controllers\\HelloWorldController.cs",
               "RelativeDocumentMoniker": "Controllers\\HelloWorldController.cs",
               "ToolTip": "C:\\Users\\Precision 5530\\Desktop\\Crown Software MVC\\.Net 8 with MVC\\MvcMovie\\Controllers\\HelloWorldController.cs",
               "RelativeToolTip": "Controllers\\HelloWorldController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-22T19:45:52.969Z",
               "EditorCaption": ""

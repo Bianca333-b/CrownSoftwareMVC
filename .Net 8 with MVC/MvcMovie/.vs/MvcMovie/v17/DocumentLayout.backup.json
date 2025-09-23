@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Precision 5530\\Desktop\\Crown Software MVC\\.Net 8 with MVC\\MvcMovie\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{16263C6E-4097-498A-8DAC-12FBF3A5DE37}|MvcMovie.csproj|c:\\users\\precision 5530\\desktop\\crown software mvc\\.net 8 with mvc\\mvcmovie\\views\\helloworld\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{16263C6E-4097-498A-8DAC-12FBF3A5DE37}|MvcMovie.csproj|solutionrelative:views\\helloworld\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{16263C6E-4097-498A-8DAC-12FBF3A5DE37}|MvcMovie.csproj|c:\\users\\precision 5530\\desktop\\crown software mvc\\.net 8 with mvc\\mvcmovie\\controllers\\helloworldcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{16263C6E-4097-498A-8DAC-12FBF3A5DE37}|MvcMovie.csproj|solutionrelative:controllers\\helloworldcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -36,11 +40,24 @@
         },
         {
           "DockedWidth": 171,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Precision 5530\\Desktop\\Crown Software MVC\\.Net 8 with MVC\\MvcMovie\\Views\\HelloWorld\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\HelloWorld\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Precision 5530\\Desktop\\Crown Software MVC\\.Net 8 with MVC\\MvcMovie\\Views\\HelloWorld\\Index.cshtml",
+              "RelativeToolTip": "Views\\HelloWorld\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-23T18:56:58.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Precision 5530\\Desktop\\Crown Software MVC\\.Net 8 with MVC\\MvcMovie\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -53,13 +70,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "HelloWorldController.cs",
               "DocumentMoniker": "C:\\Users\\Precision 5530\\Desktop\\Crown Software MVC\\.Net 8 with MVC\\MvcMovie\\Controllers\\HelloWorldController.cs",
               "RelativeDocumentMoniker": "Controllers\\HelloWorldController.cs",
               "ToolTip": "C:\\Users\\Precision 5530\\Desktop\\Crown Software MVC\\.Net 8 with MVC\\MvcMovie\\Controllers\\HelloWorldController.cs",
               "RelativeToolTip": "Controllers\\HelloWorldController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-22T19:45:52.969Z",
               "EditorCaption": ""
