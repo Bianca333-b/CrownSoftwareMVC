@@ -1,0 +1,1 @@
+For most tutorials on raywenderlich.com, the starter folder contains the files you need to get started. However, in this tutorial you create everything from scratch, so there is nothing here!
